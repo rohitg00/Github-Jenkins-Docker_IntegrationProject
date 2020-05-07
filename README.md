@@ -122,6 +122,7 @@ sudo cp -r -v -f * /tester/
 - In one click, docker will create containers and also configure github and jenkins and integrate over docker.
 - Check out this demo website, We can create same for Red zone, Green zone and orange zone in india.
 ![imgmap](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/map.PNG)
+# Check this public website: http://ffe57dc7.ngrok.io/mymap.html
 # Author
 [**Rohit Ghumare**](https://github.com/rohitg00)
 ## License
