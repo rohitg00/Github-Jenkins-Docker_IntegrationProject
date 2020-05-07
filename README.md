@@ -1,0 +1,2 @@
+# Github-Jenkins-Docker_IntegrationProject
+Automation is future to our world, Here are my steps towards automation made a small project based on Integration of Github over Jenkins using docker image httpd for automation purpose. This project covers the day-to-day problems faced by the Developer, Product Manager, and Quality Assurance team so to overcome those problems here is the small demo for achieving automation.
