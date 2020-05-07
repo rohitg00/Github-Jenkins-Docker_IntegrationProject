@@ -107,7 +107,9 @@ sudo cp -r -v -f * /tester/
 ![kaam300](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/kaam3.3.PNG)
 ### 6.After successfull completion of above commands you can easily see the results as given below:
 ![mpg](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/jenkin%20main%20pg.PNG)
+![dev](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/developer.PNG)
 ![tester](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/tester.PNG)
+![bash](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/gith%20bash.PNG)
 ![httpd](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/httpd%20server.PNG)
 # Author
 [**Rohit Ghumare**](https://github.com/rohitg00)
