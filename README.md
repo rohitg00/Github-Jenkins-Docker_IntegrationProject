@@ -83,9 +83,9 @@ sudo cp -r -v -f * /production/
 #### 4. Creating the Tester Job in Jenkins :
 Follow the below-mentioned image and start to build your second job on Jenkins. Note that, This job is for the Tester Unit and If Developer push to master branch then Jenkins will fetch from master and deploy on the master-docker environment. Hence, Tester will test the dev1 and master will make necessary deployment by running new tester server.
 - Setting up the git repository for kaam2 on our jenkins dashboard by using config jenkin item, Enter Repository URL for your github repo inside SCM as shown below:
-![kaam2](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/kaam1.1.PNG)
+![kaam2](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/kaam2.PNG)
 - configure **Build Triggers** by using POLL SCM and select 5 stars for running environment by each minutes each star depicts time keywords:
-![kaam20()]()
+![kaam20](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/kaam21.PNG)
 - This is the main job inside Jenkins to make environment to work automatically, Edit below code inside **Execute Shell** to configure the docker environment inside RHEL8 it shows if erver is running than it will print Production server already running otherwise it will create new server using httpd docker container:
 ```
 if sudo docker ps | grep tester_server
@@ -96,7 +96,7 @@ sudo docker run -d -t -i -p 8082:80 -v /tester:/usr/local/apache2/htdocs/ --name
 fi
 sudo cp -r -v -f * /tester/
 ```
-![kaaam200]()
+![kaaam200](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/kaam22.PNG)
 ### 5. Creating the Quality Assurance Job in Jenkins to issue Certificate:
 - This job is the most important and here is the actual magic begins, It merge the developer and master branches by running necessary shell commands automatically, It internally runs some build projects and triggers to merge the developer and tester server.
 - Setting up the git repository for kaam2 on our jenkins dashboard by using config jenkin item, Enter Repository URL for your github repo inside SCM and add username and password for credentials ad also **Add merge before build** as shown below:
@@ -112,4 +112,4 @@ sudo cp -r -v -f * /tester/
 # Author
 [**Rohit Ghumare**](https://github.com/rohitg00)
 ## License
-[**Apache License**]()
+[**Apache License**](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/LICENSE)
