@@ -111,6 +111,17 @@ sudo cp -r -v -f * /tester/
 ![tester](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/tester.PNG)
 ![bash](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/gith%20bash.PNG)
 ![httpd](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/httpd%20server.PNG)
+# Tunelling for webserver:
+- Tester can check the website without having IP of the RHEL, Simply do tunelling for the same.
+- Use ngrok.io for tunelling
+```
+./ngrok http 8081
+```
+# IDEA
+- Proposing idea for Covid19 situation in india, We can deploy, create and do webserver configuration between developer and Tester to get full flegged website just with one-click.
+- In one click, docker will create containers and also configure github and jenkins and integrate over docker.
+- Check out this demo website, We can create same for Red zone, Green zone and orange zone in india.
+![imgmap](https://github.com/rohitg00/Github-Jenkins-Docker_IntegrationProject/blob/master/Images/map.PNG)
 # Author
 [**Rohit Ghumare**](https://github.com/rohitg00)
 ## License
